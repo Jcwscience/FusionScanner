@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		528FB69E2D15FE4100AB902B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528FB6832D15FE3F00AB902B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528FB68A2D15FE3F00AB902B;
+			remoteInfo = FusionScanner;
+		};
+		528FB6A82D15FE4100AB902B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528FB6832D15FE3F00AB902B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528FB68A2D15FE3F00AB902B;
+			remoteInfo = FusionScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528FB68B2D15FE3F00AB902B /* FusionScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FusionScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528FB69D2D15FE4100AB902B /* FusionScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FusionScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528FB6A72D15FE4100AB902B /* FusionScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FusionScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		528FB68D2D15FE3F00AB902B /* FusionScanner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FusionScanner;
+			sourceTree = "<group>";
+		};
+		528FB6A02D15FE4100AB902B /* FusionScannerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FusionScannerTests;
+			sourceTree = "<group>";
+		};
+		528FB6AA2D15FE4100AB902B /* FusionScannerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FusionScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528FB6882D15FE3F00AB902B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528FB69A2D15FE4100AB902B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528FB6A42D15FE4100AB902B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528FB6822D15FE3F00AB902B = {
+			isa = PBXGroup;
+			children = (
+				528FB68D2D15FE3F00AB902B /* FusionScanner */,
+				528FB6A02D15FE4100AB902B /* FusionScannerTests */,
+				528FB6AA2D15FE4100AB902B /* FusionScannerUITests */,
+				528FB68C2D15FE3F00AB902B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528FB68C2D15FE3F00AB902B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528FB68B2D15FE3F00AB902B /* FusionScanner.app */,
+				528FB69D2D15FE4100AB902B /* FusionScannerTests.xctest */,
+				528FB6A72D15FE4100AB902B /* FusionScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528FB68A2D15FE3F00AB902B /* FusionScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528FB6B12D15FE4100AB902B /* Build configuration list for PBXNativeTarget "FusionScanner" */;
+			buildPhases = (
+				528FB6872D15FE3F00AB902B /* Sources */,
+				528FB6882D15FE3F00AB902B /* Frameworks */,
+				528FB6892D15FE3F00AB902B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				528FB68D2D15FE3F00AB902B /* FusionScanner */,
+			);
+			name = FusionScanner;
+			packageProductDependencies = (
+			);
+			productName = FusionScanner;
+			productReference = 528FB68B2D15FE3F00AB902B /* FusionScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528FB69C2D15FE4100AB902B /* FusionScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528FB6B42D15FE4100AB902B /* Build configuration list for PBXNativeTarget "FusionScannerTests" */;
+			buildPhases = (
+				528FB6992D15FE4100AB902B /* Sources */,
+				528FB69A2D15FE4100AB902B /* Frameworks */,
+				528FB69B2D15FE4100AB902B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528FB69F2D15FE4100AB902B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				528FB6A02D15FE4100AB902B /* FusionScannerTests */,
+			);
+			name = FusionScannerTests;
+			packageProductDependencies = (
+			);
+			productName = FusionScannerTests;
+			productReference = 528FB69D2D15FE4100AB902B /* FusionScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		528FB6A62D15FE4100AB902B /* FusionScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528FB6B72D15FE4100AB902B /* Build configuration list for PBXNativeTarget "FusionScannerUITests" */;
+			buildPhases = (
+				528FB6A32D15FE4100AB902B /* Sources */,
+				528FB6A42D15FE4100AB902B /* Frameworks */,
+				528FB6A52D15FE4100AB902B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528FB6A92D15FE4100AB902B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				528FB6AA2D15FE4100AB902B /* FusionScannerUITests */,
+			);
+			name = FusionScannerUITests;
+			packageProductDependencies = (
+			);
+			productName = FusionScannerUITests;
+			productReference = 528FB6A72D15FE4100AB902B /* FusionScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528FB6832D15FE3F00AB902B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					528FB68A2D15FE3F00AB902B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					528FB69C2D15FE4100AB902B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 528FB68A2D15FE3F00AB902B;
+					};
+					528FB6A62D15FE4100AB902B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 528FB68A2D15FE3F00AB902B;
+					};
+				};
+			};
+			buildConfigurationList = 528FB6862D15FE3F00AB902B /* Build configuration list for PBXProject "FusionScanner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528FB6822D15FE3F00AB902B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 528FB68C2D15FE3F00AB902B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528FB68A2D15FE3F00AB902B /* FusionScanner */,
+				528FB69C2D15FE4100AB902B /* FusionScannerTests */,
+				528FB6A62D15FE4100AB902B /* FusionScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528FB6892D15FE3F00AB902B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528FB69B2D15FE4100AB902B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528FB6A52D15FE4100AB902B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528FB6872D15FE3F00AB902B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528FB6992D15FE4100AB902B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528FB6A32D15FE4100AB902B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528FB69F2D15FE4100AB902B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528FB68A2D15FE3F00AB902B /* FusionScanner */;
+			targetProxy = 528FB69E2D15FE4100AB902B /* PBXContainerItemProxy */;
+		};
+		528FB6A92D15FE4100AB902B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528FB68A2D15FE3F00AB902B /* FusionScanner */;
+			targetProxy = 528FB6A82D15FE4100AB902B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		528FB6AF2D15FE4100AB902B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528FB6B02D15FE4100AB902B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528FB6B22D15FE4100AB902B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FusionScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7ZQ9RBJXD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeWiredTech.FusionScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528FB6B32D15FE4100AB902B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FusionScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7ZQ9RBJXD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeWiredTech.FusionScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		528FB6B52D15FE4100AB902B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7ZQ9RBJXD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeWiredTech.FusionScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FusionScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FusionScanner";
+			};
+			name = Debug;
+		};
+		528FB6B62D15FE4100AB902B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7ZQ9RBJXD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeWiredTech.FusionScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FusionScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FusionScanner";
+			};
+			name = Release;
+		};
+		528FB6B82D15FE4100AB902B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7ZQ9RBJXD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeWiredTech.FusionScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FusionScanner;
+			};
+			name = Debug;
+		};
+		528FB6B92D15FE4100AB902B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7ZQ9RBJXD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeWiredTech.FusionScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FusionScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528FB6862D15FE3F00AB902B /* Build configuration list for PBXProject "FusionScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528FB6AF2D15FE4100AB902B /* Debug */,
+				528FB6B02D15FE4100AB902B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528FB6B12D15FE4100AB902B /* Build configuration list for PBXNativeTarget "FusionScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528FB6B22D15FE4100AB902B /* Debug */,
+				528FB6B32D15FE4100AB902B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528FB6B42D15FE4100AB902B /* Build configuration list for PBXNativeTarget "FusionScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528FB6B52D15FE4100AB902B /* Debug */,
+				528FB6B62D15FE4100AB902B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528FB6B72D15FE4100AB902B /* Build configuration list for PBXNativeTarget "FusionScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528FB6B82D15FE4100AB902B /* Debug */,
+				528FB6B92D15FE4100AB902B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528FB6832D15FE3F00AB902B /* Project object */;
+}
